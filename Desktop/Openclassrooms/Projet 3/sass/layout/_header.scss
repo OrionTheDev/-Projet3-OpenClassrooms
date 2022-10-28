@@ -1,6 +1,7 @@
 @use "../utils/" as *;
 
 /*HEADER*/
+
 .header {
   background-color: $thirdly;
   position: relative;
@@ -13,6 +14,18 @@
     font-family: "Shrikhand", "cursive";
     margin-bottom: 0;
   }
+}
+
+.header__arrow {
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  font-size: 30px;
+  font-style: none;
+}
+
+a {
+  color: initial;
 }
 
 /*END HEADER*/
