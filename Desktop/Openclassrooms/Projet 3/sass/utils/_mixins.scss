@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+@mixin btn-choose {
+  display: flex;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 0;
+  margin-left: 10px;
+  padding-left: 10px;
+  background-color: $thirdly;
+  border-radius: 20px 20px 20px 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
