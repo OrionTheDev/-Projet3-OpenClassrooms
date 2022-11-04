@@ -52,29 +52,8 @@
   margin-top: -55px;
   width: 50%;
 }
-
-.container-card .heart {
-  position: relative;
-  top: -35px;
-  font-size: 25px;
-}
-
-.container-card .heart .full {
-  position: relative;
-  left: -25px;
-  font-size: 25px;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  transform: scale(1);
-  transition: transform 400ms;
-}
-
-.heart .full:hover {
-  background: -webkit-linear-gradient(176deg, $secondary 0%, $primary 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.15);
+.container-heart {
+  @include container-heart;
 }
 
 .card .new {
